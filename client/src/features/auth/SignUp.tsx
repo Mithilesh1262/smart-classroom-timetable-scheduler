@@ -156,7 +156,7 @@ export default function SignUp() {
                     <Input
                       id="fullName"
                       type="text"
-                      placeholder="John Doe"
+                      placeholder="Aditya"
                       value={formData.fullName}
                       onChange={(e) => handleInputChange("fullName", e.target.value)}
                       required
@@ -169,7 +169,7 @@ export default function SignUp() {
                     <Input
                       id="email"
                       type="email"
-                      placeholder="john.doe@college.edu"
+                      placeholder="aditya.singh@college.edu"
                       value={formData.email}
                       onChange={(e) => handleInputChange("email", e.target.value)}
                       required
